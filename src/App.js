@@ -12,7 +12,7 @@ import Footer from './Pages/Shared/Footer/Footer'
 import Header from './Pages/Shared/Header/Header'
 import NotFoundPage from './Pages/NotFound/NotFoundPage/NotFoundPage'
 import ContactPage from './Pages/Contact/ContactPage/ContactPage'
-import ServicesPage from './Pages/Services/ServicesPage/ServicesPage'
+import SingleService from './Pages/SingleService/SingleServicePage/SingleService'
 
 const App = () => {
 	return (
@@ -33,8 +33,8 @@ const App = () => {
 						<Route path='/contact'>
 							<ContactPage></ContactPage>
 						</Route>
-						<Route path='/services'>
-							<ServicesPage></ServicesPage>
+						<Route path='/services/:id'>
+							<SingleService></SingleService>
 						</Route>
 						<Route path='*'>
 							<NotFoundPage></NotFoundPage>

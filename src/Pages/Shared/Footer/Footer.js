@@ -1,5 +1,15 @@
+import { Col, Container, Row } from 'react-bootstrap'
+
 const Footer = () => {
-	return <h1>Footer</h1>
+	return (
+		<footer>
+			<Container>
+				<Row>
+					<Col className='text-center'>Footer</Col>
+				</Row>
+			</Container>
+		</footer>
+	)
 }
 
 export default Footer

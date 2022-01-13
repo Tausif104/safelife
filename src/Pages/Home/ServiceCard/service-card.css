@@ -1,0 +1,30 @@
+.service-card img {
+	height: 270px;
+	width: 100%;
+	object-fit: cover;
+}
+
+.service-card {
+	background-color: #fff;
+	box-shadow: 0 0 20px #ddd;
+	border-radius: 7px;
+	overflow: hidden;
+	transition: 0.2s;
+}
+
+.service-card:hover {
+	transform: translateY(-10px);
+}
+
+.card-btn {
+	color: #3ec16f;
+	text-decoration: none;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	transition: 0.5s;
+}
+
+.card-btn:hover {
+	color: #333;
+}

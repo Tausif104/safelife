@@ -11,7 +11,7 @@ const PageBanner = ({ title }) => {
 						<h1>{title}</h1>
 						<div className='breadcrumb-text text-center'>
 							<Link to='/'>Home</Link>
-							<i className='fas fa-angle-right'></i>
+							<span className='divider'>|</span>
 							<span>{title}</span>
 						</div>
 					</Col>

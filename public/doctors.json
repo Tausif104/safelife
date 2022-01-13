@@ -1,0 +1,26 @@
+[
+	{
+		"id": 1,
+		"thumb": "../images/doctors/1.jpg",
+		"name": "Lee S. Williamson",
+		"specialist": "Cardiology"
+	},
+	{
+		"id": 2,
+		"thumb": "../images/doctors/2.jpg",
+		"name": "Greg S. Grinstead",
+		"specialist": "Neurology"
+	},
+	{
+		"id": 3,
+		"thumb": "../images/doctors/3.jpg",
+		"name": "Roger K. Jackson",
+		"specialist": "Orthopedics"
+	},
+	{
+		"id": 4,
+		"thumb": "../images/doctors/4.jpg",
+		"name": "Raymudo M. Drake",
+		"specialist": "Covid - 19"
+	}
+]
