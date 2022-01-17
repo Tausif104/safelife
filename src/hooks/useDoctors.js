@@ -6,7 +6,6 @@ const useDoctors = () => {
 
 	useEffect(() => {
 		setLoading(true)
-
 		fetch('../doctors.json')
 			.then((res) => res.json())
 			.then((data) => [setDoctors(data), setLoading(false)])

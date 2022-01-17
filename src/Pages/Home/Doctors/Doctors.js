@@ -20,7 +20,7 @@ const Doctors = () => {
 						</div>
 					</Col>
 				</Row>
-				<Row className='g-5'>
+				<Row className='g-xl-5'>
 					{loading ? (
 						<Loader />
 					) : (

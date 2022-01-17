@@ -7,3 +7,17 @@
 	font-size: 75px;
 	font-weight: 900;
 }
+
+@media screen and (max-width: 767px) {
+	.banner-text h1 {
+		font-size: 30px;
+	}
+
+	section.banner-section {
+		padding: 50px 0;
+	}
+
+	.banner-text {
+		margin-bottom: 28px;
+	}
+}

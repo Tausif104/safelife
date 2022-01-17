@@ -16,8 +16,8 @@ const Banner = () => {
 								adipisicing elit. Eos voluptatem expedita
 								praesentium ex temporibus saepe?
 							</p>
-							<Link to='/services' className='primary-btn'>
-								Our Services
+							<Link to='/register' className='primary-btn'>
+								Sign Up
 							</Link>
 						</div>
 					</Col>

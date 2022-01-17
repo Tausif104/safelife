@@ -3,3 +3,10 @@
 body {
 	font-family: 'Poppins', sans-serif;
 }
+
+.primary-color {
+	color: #3ec16f;
+}
+.primary-color:hover {
+	color: #333;
+}
